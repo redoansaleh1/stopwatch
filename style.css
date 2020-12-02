@@ -13,7 +13,7 @@ body{
   background-color:#36FF02;
   position: absolute;
   text-align: center;
-  
+  font-size:100px;
 }
 #buttons button{
   text-align: center;
