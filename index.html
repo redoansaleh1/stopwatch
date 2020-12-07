@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -6,23 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>stopwatch</title>
+    
 </head>
 
 <body>
+    <h2><center id="tit">Stopwatch by Redoan Saleh</center></h2>
+    <section>
     
-    <div id="display" class="flex-container">
-      00:00
+    <div id="parent">
+      <div id="display">00:00</div>
+      <div id="con">
+        <button onclick="start()">start</button>
+        <button onclick="pause()">pause</button>
+        <button onclick="reset()">reset</button>
+      </div>
     </div>
-    <div id="buttons">
-      <button onclick="start()">start</button>
-      <button onclick="pause()">pause</button>
-      <button onclick="restart()">restart</button>
-      
-    </div>
-    
-    <script type="text/javascript" charset="utf-8" src="main.js">
-      
+    </section>
+    <script type="text/javascript" charset="utf-8" src="script.js">
+    ""
     </script>
+    
 </body>
 
 </html>
